@@ -19,6 +19,6 @@ steps:
 #  displayName: 'Run a multi-line script'
   - task: CopyFiles@2
     inputs:    contents: 'copyFiles-filesA/dupa/**' 
-    targetFolder: 'copyFiles-filesA/log/' 
+    targetFolder: 'copyFiles-filesA/kopia/' 
 
 
