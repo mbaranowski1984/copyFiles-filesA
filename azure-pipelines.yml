@@ -18,7 +18,7 @@ steps:
 #    echo See https://aka.ms/yaml
 #  displayName: 'Run a multi-line script'
   - task: CopyFiles@2
-    inputs:    contents: 'dupa/**' 
+    inputs:    contents: 'copyFiles-filesA/**' 
     targetFolder: $(Build.ArtifactStagingDirectory) 
   - task: PublishBuildArtifacts@1 
     inputs:    pathToPublish: $(Build.ArtifactStagingDirectory) 
